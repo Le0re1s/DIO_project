@@ -1,0 +1,40 @@
+git init
+git add
+git add .
+git push
+git clone
+git commit
+git commit -m "nome"
+git status
+
+----------------------
+
+git branch 
+git branch (staging)
+git checkout (staging)
+
+-------------------------
+
+git pull
+git checkout -b sistema-teste master
+git merge (staging)
+
+---------------------
+
+1- git pull da branch principal
+2- gerar uma nova branch a partir da branch principal
+3- trabalhar e adicionar novas funcionalidade na nova branch que criou
+4- Finalizar o trabalho na branch temporária
+5- git checkout na branch principal
+6- git pull
+7- merge o código na branch temporária com a branch principal (deppois de tesar)
+8- git push da branch principal
+
+--------------------------------------------------------------------------------------
+
+//Configuração do sincronismo Git/Github
+
+git config --global user.email "leo@gmail.com"
+git config --global user.name "Meunome"
+git remote add origin (link da publicação no Github)
+git push --set-upstream origin master
